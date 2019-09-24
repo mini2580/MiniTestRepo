@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Mini Kaushik</Author>
+  <LastAuthor>Mini Kaushik</LastAuthor>
+  <Created>2019-07-26T14:32:04Z</Created>
+  <LastSaved>2019-08-20T11:38:56Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11033</WindowHeight>
+  <WindowWidth>20520</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="14" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="51" ss:DefaultRowHeight="14.25">
+   <Column ss:Index="2" ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="101.625"/>
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="159.375"/>
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="199.125"/>
+   <Column ss:AutoFitWidth="0" ss:Width="76.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="66"/>
+   <Row>
+    <Cell><Data ss:Type="String">Test Case #</Data></Cell>
+    <Cell><Data ss:Type="String">Test case description</Data></Cell>
+    <Cell><Data ss:Type="String">Precondition</Data></Cell>
+    <Cell><Data ss:Type="String">Test steps</Data></Cell>
+    <Cell><Data ss:Type="String">Expected Result</Data></Cell>
+    <Cell><Data ss:Type="String">Actual Result</Data></Cell>
+    <Cell><Data ss:Type="String">Status</Data></Cell>
+    <Cell><Data ss:Type="String">Remarks</Data></Cell>
+   </Row>
+   <Row ss:Height="42.75">
+    <Cell><Data ss:Type="String">TC-1</Data></Cell>
+    <Cell><Data ss:Type="String">Launch the application </Data></Cell>
+    <Cell><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#000000">URL : </Font><B><Font html:Color="#000000">https://eu.actitime.com/mini/login.do</Font></B><Font
+       html:Color="#000000"> must be configured</Font></ss:Data></Cell>
+    <Cell><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#000000">1. Launch the  application with URL:</Font><B><Font
+        html:Color="#000000">https://eu.actitime.com/mini/login.do</Font></B></ss:Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Login page should be opened</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Login page opened</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">pass</Data></Cell>
+   </Row>
+   <Row ss:Height="71.25">
+    <Cell><Data ss:Type="String">TC 2</Data></Cell>
+    <Cell><Data ss:Type="String">Verify Login window appearence </Data></Cell>
+    <Cell><Data ss:Type="String">TC 1 must be satisfied</Data></Cell>
+    <Cell><Data ss:Type="String">Verify a Login window of x by y size with a grey border on 3 sides and a blue broad border on right vertical line </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">A Login window must appear of the specifed size and color</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">A Login window appeared of the specified size and color</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">pass</Data></Cell>
+   </Row>
+   <Row ss:Height="57">
+    <Cell><Data ss:Type="String">TC 3</Data></Cell>
+    <Cell><Data ss:Type="String">Verify Logo Image </Data></Cell>
+    <Cell><Data ss:Type="String">TC1 and TC 2 must be satisfied</Data></Cell>
+    <Cell><Data ss:Type="String">verify Logo image of size 98 by 117</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Logo image should appear in the specified size</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Logo image appeared in size specified</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">pass</Data></Cell>
+   </Row>
+   <Row ss:Height="85.5">
+    <Cell><Data ss:Type="String">TC 4</Data></Cell>
+    <Cell><Data ss:Type="String">Verify Product Name </Data></Cell>
+    <Cell><Data ss:Type="String">TC1 , TC 2 and TC3 must be satisfied</Data></Cell>
+    <Cell><Data ss:Type="String">Verify the Product name :'actiTIME' must appear at the bottom of Logo image in position n size 98 x 22</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Product name 'actiTIME' should appear in specified position and size</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Product name 'actiTIME ' appeared in specified position and size</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">pass</Data></Cell>
+   </Row>
+   <Row ss:Height="57">
+    <Cell><Data ss:Type="String">TC-5</Data></Cell>
+    <Cell><Data ss:Type="String">Verify Header in right Logo body</Data></Cell>
+    <Cell><Data ss:Type="String">TC1 , TC2 , TC3 and TC4 must be satisfied</Data></Cell>
+    <Cell><Data ss:Type="String">Verify the Header name as 'Please identify yourself' starting from position 291x 35</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Header name must be 'Please identify yourself'</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Header name is at the specified position </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">pass</Data></Cell>
+   </Row>
+   <Row ss:Height="71.25">
+    <Cell><Data ss:Type="String">TC-6 </Data></Cell>
+    <Cell><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#000000">Verfiy the textbox </Font><B><Font html:Color="#000000">Username  </Font></B><Font
+       html:Color="#000000">is a textbox</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">TC1 , TC2 , TC3 , TC4 and TC5 must be satisfied</Data></Cell>
+    <Cell><Data ss:Type="String">1. Try to enter any characters in textbox :Username</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">User must be able to enter any characters in textbox Username</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Able to enter </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">pass</Data></Cell>
+   </Row>
+   <Row ss:Height="71.25">
+    <Cell><Data ss:Type="String">TC-7 </Data></Cell>
+    <Cell><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#000000">Verify the textbox </Font><B><Font html:Color="#000000">Password </Font></B><Font
+       html:Color="#000000">is a textbox</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">TC1 , TC2 , TC3 , TC4 , TC5, TC6 must be satisfied</Data></Cell>
+    <Cell><Data ss:Type="String">1. Try to enter any characters in textbox :Password</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">User must be able to enter any characters in textbox Password</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Able to enter </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">pass</Data></Cell>
+   </Row>
+   <Row ss:Height="85.5">
+    <Cell><Data ss:Type="String">TC-8</Data></Cell>
+    <Cell><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#000000">Verify the checkbox </Font><B><Font html:Color="#000000">keep me logged in </Font></B><Font
+       html:Color="#000000"> is a check box</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">TC1 , TC2 , TC3 , TC4 , TC5, TC6 , TC7 must be satisfied</Data></Cell>
+    <Cell><Data ss:Type="String">1. Try to check/uncheck  the checkbox 'keep me logged in' </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">User should be able to check/uncheck  the checkbox 'keep me logged in' </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Able to check /uncheck</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">pass</Data></Cell>
+   </Row>
+   <Row ss:Height="42.75">
+    <Cell><Data ss:Type="String">TC-9</Data></Cell>
+    <Cell><Data ss:Type="String">verify LOGIN button is a link button not a label</Data></Cell>
+    <Cell><Data ss:Type="String">TC1 , TC2 , TC3 , TC4 , TC5, TC6 , TC7 TC8 must be satisfied</Data></Cell>
+    <Cell><Data ss:Type="String">1.Try to click the LOGIN button</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">User must be able to click the button</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Able to click</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">pass</Data></Cell>
+   </Row>
+   <Row ss:Height="42.75">
+    <Cell><Data ss:Type="String">TC-10</Data></Cell>
+    <Cell><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#000000">verify </Font><B><Font html:Color="#000000">FORGOT YOUR PASSWORD </Font></B><Font
+       html:Color="#000000">is a link button</Font></ss:Data></Cell>
+    <Cell><Data ss:Type="String">Previous test cases must be satisfied</Data></Cell>
+    <Cell><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#000000">1. Try to click the </Font><U><Font html:Color="#000000">FORGOT YOUR PASSWORD?</Font></U><Font
+       html:Color="#000000"> Link button</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">User must be able to click the button</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Able to click the button</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">pass</Data></Cell>
+   </Row>
+   <Row ss:Height="99.75">
+    <Cell><Data ss:Type="String">TC-11</Data></Cell>
+    <Cell><Data ss:Type="String">verfiy Username textbox for alhanumeric and special characters</Data></Cell>
+    <Cell><Data ss:Type="String">TC-6 must be satisfied</Data></Cell>
+    <Cell><Data ss:Type="String">1. Enter the username as &quot;mini2580@gmail.com&quot;&#10;&#10;2. Enter the password as &quot;Dhruv2010&quot;&#10;&#10;3. Click on LOGIN button</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">The Username text box data must go through and navigate actiTIME home page </Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">All the data passed through and able to navigate to actiTIME home page</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">pass</Data></Cell>
+   </Row>
+   <Row ss:Height="85.5">
+    <Cell><Data ss:Type="String">TC-12</Data></Cell>
+    <Cell><Data ss:Type="String">verfiy Password textbox for alhanumeric and special characters</Data></Cell>
+    <Cell><Data ss:Type="String">TC-7 must be satisfied</Data></Cell>
+    <Cell><Data ss:Type="String">1. Enter the username as &quot;mini2580@gmail.com&quot;&#10;&#10;2. Enter the password as &quot;Dhruv2010!!&quot;&#10;&#10;3. Click on LOGIN button</Data></Cell>
+   </Row>
+   <Row ss:Height="42.75">
+    <Cell><Data ss:Type="String">TC-13</Data></Cell>
+    <Cell><Data ss:Type="String">Verify the TIME TRACK TAB is clickable</Data></Cell>
+    <Cell><Data ss:Type="String">Previous test cases must be satisfied</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>7</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>13</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
